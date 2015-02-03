@@ -1,0 +1,290 @@
+Testing if graph A is bipartite
+
+At vertex 1
+1 has not yet been added to a set
+1 has been added to the left set and its neighbors to the right
+All vertices visited, final mapping:
+Left:  [ 1 ]
+Right: [ ]
+Graph A is bipartite
+
+Testing if graph B is bipartite
+
+At vertex 1
+1 has not yet been added to a set
+1 has been added to the left set and its neighbors to the right
+At vertex 2
+2 is in the right set
+Checking neighbor 1 for contradiction
+1 is in the left set as it should be
+Checking neighbor 3 for contradiction
+3 does not belong to a set yet, adding it to the left
+At vertex 3
+3 is in the left set
+Checking neighbor 2 for contradiction
+2 is in the right set as it should be
+All vertices visited, final mapping:
+Left:  [ 1 3 ]
+Right: [ 2 ]
+Graph B is bipartite
+
+Testing if graph C is bipartite
+
+At vertex R
+R has not yet been added to a set
+R has been added to the left set and its neighbors to the right
+At vertex S
+S is in the right set
+Checking neighbor R for contradiction
+R is in the left set as it should be
+Checking neighbor T for contradiction
+T does not belong to a set yet, adding it to the left
+Checking neighbor V for contradiction
+V does not belong to a set yet, adding it to the left
+Checking neighbor W for contradiction
+W does not belong to a set yet, adding it to the left
+At vertex T
+T is in the left set
+Checking neighbor S for contradiction
+S is in the right set as it should be
+At vertex V
+V is in the left set
+Checking neighbor S for contradiction
+S is in the right set as it should be
+Checking neighbor U for contradiction
+U does not belong to a set yet, adding it to the right
+At vertex W
+W is in the left set
+Checking neighbor S for contradiction
+S is in the right set as it should be
+At vertex U
+U is in the right set
+Checking neighbor V for contradiction
+V is in the left set as it should be
+All vertices visited, final mapping:
+Left:  [ R T V W ]
+Right: [ S U ]
+Graph C is bipartite
+
+Testing if graph D is bipartite
+
+At vertex A
+A has not yet been added to a set
+A has been added to the left set and its neighbors to the right
+At vertex E
+E is in the right set
+Checking neighbor A for contradiction
+A is in the left set as it should be
+Checking neighbor C for contradiction
+C does not belong to a set yet, adding it to the left
+Checking neighbor G for contradiction
+G does not belong to a set yet, adding it to the left
+Checking neighbor H for contradiction
+H does not belong to a set yet, adding it to the left
+At vertex C
+C is in the left set
+Checking neighbor B for contradiction
+B does not belong to a set yet, adding it to the right
+Checking neighbor E for contradiction
+E is in the right set as it should be
+At vertex G
+G is in the left set
+Checking neighbor E for contradiction
+E is in the right set as it should be
+Checking neighbor F for contradiction
+F does not belong to a set yet, adding it to the right
+Checking neighbor I for contradiction
+I does not belong to a set yet, adding it to the right
+At vertex H
+H is in the left set
+Checking neighbor E for contradiction
+E is in the right set as it should be
+Checking neighbor I for contradiction
+I is in the right set as it should be
+At vertex B
+B is in the right set
+Checking neighbor C for contradiction
+C is in the left set as it should be
+Checking neighbor D for contradiction
+D does not belong to a set yet, adding it to the left
+At vertex D
+D is in the left set
+Checking neighbor B for contradiction
+B is in the right set as it should be
+Checking neighbor F for contradiction
+F is in the right set as it should be
+At vertex F
+F is in the right set
+Checking neighbor D for contradiction
+D is in the left set as it should be
+Checking neighbor G for contradiction
+G is in the left set as it should be
+At vertex I
+I is in the right set
+Checking neighbor G for contradiction
+G is in the left set as it should be
+Checking neighbor H for contradiction
+H is in the left set as it should be
+All vertices visited, final mapping:
+Left:  [ A C G H D ]
+Right: [ E B F I ]
+Graph D is bipartite
+
+Testing if graph E is bipartite
+
+At vertex A
+A has not yet been added to a set
+A has been added to the left set and its neighbors to the right
+At vertex E
+E is in the right set
+Checking neighbor A for contradiction
+A is in the left set as it should be
+Checking neighbor C for contradiction
+Contradiction found!
+Graph E is not bipartite
+
+Testing if graph F is bipartite
+
+At vertex 1
+1 has not yet been added to a set
+1 has been added to the left set and its neighbors to the right
+At vertex 2
+2 is in the right set
+Checking neighbor 1 for contradiction
+1 is in the left set as it should be
+Checking neighbor 3 for contradiction
+3 does not belong to a set yet, adding it to the left
+Checking neighbor 4 for contradiction
+4 does not belong to a set yet, adding it to the left
+Checking neighbor 5 for contradiction
+5 does not belong to a set yet, adding it to the left
+At vertex 3
+3 is in the left set
+Checking neighbor 2 for contradiction
+2 is in the right set as it should be
+Checking neighbor 6 for contradiction
+6 does not belong to a set yet, adding it to the right
+At vertex 4
+4 is in the left set
+Checking neighbor 2 for contradiction
+2 is in the right set as it should be
+Checking neighbor 7 for contradiction
+7 does not belong to a set yet, adding it to the right
+Checking neighbor 8 for contradiction
+8 does not belong to a set yet, adding it to the right
+At vertex 5
+5 is in the left set
+Checking neighbor 2 for contradiction
+2 is in the right set as it should be
+Checking neighbor 9 for contradiction
+9 does not belong to a set yet, adding it to the right
+At vertex 6
+6 is in the right set
+Checking neighbor 3 for contradiction
+3 is in the left set as it should be
+At vertex 7
+7 is in the right set
+Checking neighbor 4 for contradiction
+4 is in the left set as it should be
+Checking neighbor 10 for contradiction
+10 does not belong to a set yet, adding it to the left
+Checking neighbor 11 for contradiction
+11 does not belong to a set yet, adding it to the left
+Checking neighbor 12 for contradiction
+12 does not belong to a set yet, adding it to the left
+At vertex 8
+8 is in the right set
+Checking neighbor 4 for contradiction
+4 is in the left set as it should be
+At vertex 9
+9 is in the right set
+Checking neighbor 5 for contradiction
+5 is in the left set as it should be
+Checking neighbor 13 for contradiction
+13 does not belong to a set yet, adding it to the left
+At vertex 10
+10 is in the left set
+Checking neighbor 7 for contradiction
+7 is in the right set as it should be
+At vertex 11
+11 is in the left set
+Checking neighbor 7 for contradiction
+7 is in the right set as it should be
+At vertex 12
+12 is in the left set
+Checking neighbor 7 for contradiction
+7 is in the right set as it should be
+At vertex 13
+13 is in the left set
+Checking neighbor 9 for contradiction
+9 is in the right set as it should be
+Checking neighbor 14 for contradiction
+14 does not belong to a set yet, adding it to the right
+Checking neighbor 15 for contradiction
+15 does not belong to a set yet, adding it to the right
+Checking neighbor 16 for contradiction
+16 does not belong to a set yet, adding it to the right
+At vertex 14
+14 is in the right set
+Checking neighbor 13 for contradiction
+13 is in the left set as it should be
+At vertex 15
+15 is in the right set
+Checking neighbor 13 for contradiction
+13 is in the left set as it should be
+At vertex 16
+16 is in the right set
+Checking neighbor 13 for contradiction
+13 is in the left set as it should be
+All vertices visited, final mapping:
+Left:  [ 1 3 4 5 10 11 12 13 ]
+Right: [ 2 6 7 8 9 14 15 16 ]
+Graph F is bipartite
+
+Testing if graph G is bipartite
+
+At vertex A
+A has not yet been added to a set
+A has been added to the left set and its neighbors to the right
+At vertex B
+B is in the right set
+Checking neighbor A for contradiction
+A is in the left set as it should be
+Checking neighbor L for contradiction
+L does not belong to a set yet, adding it to the left
+At vertex L
+L is in the left set
+Checking neighbor B for contradiction
+B is in the right set as it should be
+Checking neighbor K for contradiction
+K does not belong to a set yet, adding it to the right
+At vertex K
+K is in the right set
+Checking neighbor J for contradiction
+J does not belong to a set yet, adding it to the left
+Checking neighbor L for contradiction
+L is in the left set as it should be
+At vertex J
+J is in the left set
+Checking neighbor I for contradiction
+I does not belong to a set yet, adding it to the right
+Checking neighbor K for contradiction
+K is in the right set as it should be
+At vertex I
+I is in the right set
+Checking neighbor J for contradiction
+J is in the left set as it should be
+At vertex G
+G has not yet been added to a set
+G has been added to the left set and its neighbors to the right
+At vertex C
+C is in the right set
+Checking neighbor G for contradiction
+G is in the left set as it should be
+Checking neighbor M for contradiction
+M does not belong to a set yet, adding it to the left
+At vertex D
+D is in the right set
+Checking neighbor E for contradiction
+Contradiction found!
+Graph G is not bipartite
